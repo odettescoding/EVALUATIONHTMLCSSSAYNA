@@ -1,0 +1,167 @@
+@font-face {
+    font-family:'panthera';
+    src: url('C:\Users\Utilisateur CERES\Desktop\evaluation sayna\panthera');
+    
+}
+body
+    {
+        color:#ffffff ;
+        background: url(Assets/Logos/arrière_plan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+/*premier bar a gauche */
+.bar1
+    {
+        position:absolute;
+        float: left;
+        left: 20px;
+        height: 40%;
+        width: 1px;
+        border-left: 2px solid #f2cef2;
+    }
+
+/*deuxieme  bar a gauche*/
+.bar2
+    {
+        position:absolute;
+        float: left;
+        left: 40px;
+        height: 20%;
+        width: 1px;
+        border-left: 2px solid #f2cef2;
+    }
+
+/*logo Marvel*/
+.Marvel
+    {
+        width: 32%;
+        height: 30%;
+    }
+.Sayna
+    {
+        width: 15%;
+        height: 15%;
+    }
+
+/*liein dans navbar*/
+.navbar
+    {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+.navbar .nav-link ul
+    {
+        display: flex;
+    }
+    
+ .nav-link ul li
+    {
+        display: flex;
+    }
+
+.navbar .nav-link ul li
+    {
+        margin:   0 25px;
+    }
+
+.navbar .nav-link a
+    {
+        color: #ffffff;
+        font-weight:200;
+        font-size: 10px;
+        
+    }
+#liencote 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left:30px;
+    top: 22%;
+}
+
+.container-pantherahome1{
+    display: flex;
+}
+
+.description1{
+    margin-left: 100px;
+    margin-top: 80px;
+   
+}
+.Pantherhome1
+    {
+        width: 100%;
+        height: 100%;
+       
+    }
+.blackpanthera{
+    display: flex;
+   align-items: center;
+   background-color: #031f55;
+   height: 200px;
+   width: 90%;
+   margin-left:100px;
+}
+.parag-wakanda
+    {
+        width: 320px;
+        font-size: 10px;
+    }
+    .parag-okoye
+    {
+        width: 200px;
+        font-size: 10px;
+    }
+span    
+    {
+        text-decoration: underline;
+        font-size: 10px;
+
+    }
+span:hover
+{
+    cursor: grab;
+}
+.section-killmonger{
+    padding: 1px 2px;
+    width: 30%;
+}
+.section-okoye{
+    padding: 1px 2px;
+    width: 40%;
+}
+.parag-killmonger,.parag-okoye{
+    
+    font-size: 10px;
+
+}
+
+.Pantherhome2
+    {
+        
+        position: relative;
+        width: 80%;
+        height: 150%;
+        margin-left: 12px;
+    }
+.Pantherhome3
+    {
+        width: 90%;
+        height: 94%;
+        
+    }
+.Pantherhome4
+    {
+        width: 100%;
+        height: 200px;
+       
+    }
+
