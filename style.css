@@ -268,9 +268,9 @@ span:hover
 #section3{
     text-align: center;
     background-image: url(Assets/Illustration/Pantherhome7.png);
-    padding: 50px 0;
+    padding-top: 200px;
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 100px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -295,10 +295,77 @@ span:hover
     border-radius: 10px;
     margin: 10px auto;
     border: 1px solid rgb(10, 10, 10);
+    background: transparent;
 
 }
  #formulaire .envoyer{
- background: #1f29b9;
+ background: #f2cef2;
  width: 100px;
- color: #f5eaea;
+ color: #000;
+ border-radius: 10px;
+ padding: 2px;
+ 
+}
+.footer{
+    background-image: url(Assets/Logos/back_footer.png);
+    display: flex;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: -150px;
+}
+.footerimg{
+    width: 38%;
+    margin-left: 40px;
+    
+}
+.containerfooter{
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 10%;
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    
+}
+.footer2{
+    width: 15%;
+    position: relative;
+    bottom: 90px;
+    left: -110px;
+}
+.logolien, .pages{
+    width: 180px;
+    margin-left: 2px;
+   
+}
+.lolfooter{
+    width: 15%;
+    margin-left: 8px;
+}
+h4{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.footer p, .footer li{
+    font-size: 10px;
+}
+.condition{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: -150px;
+    flex-direction: row;
+}
+.condition ul,.condition li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3px;
+    font-size: 8px;
 }
