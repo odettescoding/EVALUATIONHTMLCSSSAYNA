@@ -1,5 +1,5 @@
 @font-face {
-    font-family:'panthera';
+    font-family:panthera;
     src: url('C:\Users\Utilisateur CERES\Desktop\evaluation sayna\panthera');
     
 }
@@ -208,6 +208,7 @@ span:hover
 }
  h2{
     font-size: 12px;
+
 }
 .imagepantherhome5{
     position: absolute;
@@ -369,3 +370,113 @@ h4{
     margin-left: 3px;
     font-size: 8px;
 }
+/* MISE EN FORM DE LA PARTIE ENIGME*/
+.containerenigme{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    
+}
+.pantherenigme1{
+    width: 90%;
+    padding-top: 0px;
+}
+
+.paragenigme{
+   
+    text-justify: auto;
+    font-size: 8px;
+    margin: 20px 30px;
+}
+.textagauchepanthenigme1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.paragenigme{
+    width: 300px;
+    background-image: url(Assets/Enigme/Pantherenigme2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-position: left ;
+   
+
+    
+}
+.textagauchepanthenigme1 h1{
+   text-transform: uppercase;
+   font-size: 30px;
+   width: 60%;
+   margin-left: 50px;
+   letter-spacing: 2px;
+   text-align: justify;
+}
+.ligne{
+    width: 80%;
+}
+ .section2enigme{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0%;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    
+ }
+.citationenigme{
+    margin-top: 50px;
+    width: 80%;
+}
+.containersection2enigme{
+   
+    padding: 30px 50px;
+}
+.partiegame{
+    display: flex;
+  
+}
+.partiegame .reponse{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.1px solid #ffffff;
+    background: transparent;
+    display: block;
+    color: #ffffff;
+
+}
+.partiform{
+    padding-top: 50px;
+}
+.sujet{
+    width:50%;
+    text-align: justify;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.paragaucheenigme{
+    width: 300px;
+    background-image: url(Assets/Enigme/Pantherenigme2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 60px;
+    margin-left: -50px;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.partiform .envoyer{
+    background: #f2cef2;
+    width: 90px;
+    color: #000;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 50px 45px;
+    }
