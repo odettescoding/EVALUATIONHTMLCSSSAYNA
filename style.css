@@ -304,7 +304,8 @@ span:hover
  width: 100px;
  color: #000;
  border-radius: 10px;
- padding: 2px;
+ padding: 10px;
+ border: none;
  
 }
 .footer{
@@ -319,7 +320,7 @@ span:hover
     margin-left: -150px;
 }
 .footerimg{
-    width: 38%;
+    width: 42%;
     margin-left: 40px;
     
 }
@@ -335,10 +336,10 @@ span:hover
     
 }
 .footer2{
-    width: 15%;
+    width: 25%;
     position: relative;
     bottom: 90px;
-    left: -110px;
+    left: -130px;
 }
 .logolien, .pages{
     width: 180px;
@@ -479,4 +480,64 @@ h4{
     border-radius: 10px;
     padding: 2px;
     margin: 50px 45px;
+    }
+
+    /* Mise en form de la partie wakanda */
+    .section1wakanda{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(Assets/Wakanda/Pantherwakanda1.png);
+        background-size: cover;
+        background-position-x: center;
+        text-align: center;
+    }
+    .paragraphwakanda{
+        width: 30%;
+        font-size: 10px;
+        margin: 2% 10%;
+        text-align: justify;
+    }
+    .titrewakanda{
+        
+        width: 40%;
+        margin-left: 10%;
+        text-align: justify;
+        padding-top: 20%;
+    }
+
+
+    /*mide en form de la partie wakanda*/
+
+    .containerwakanda{
+        width: 80%;
+        display: flex;
+       
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .partie1wakanda{
+        background: #bd1717;
+        width: 50%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .partie2wakanda{
+        background: #a9e745;
+        width: 50%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .pantherwakanda2-1{
+        width: 100%;
     }
