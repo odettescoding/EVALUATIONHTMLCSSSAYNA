@@ -567,54 +567,25 @@ h4{
 
     .containerwakanda{
     width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-image: url(Assets/Wakanda/Pantherwakanda2.png);
     background-repeat: no-repeat;
     background-size: 80%; 
    
     }
-
-    .partie1wakanda{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-
-
-    }
-    .partie2wakanda{
-        
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-       
-    }
     .pantherwakanda2-1{
-        width: 40%;
-        margin: 0;
-        padding: 0;
-        background: #09dbdb;
-        position:absolute;
-        
-    }
+        width: 400px;
+    
+    }  
     .containerwakanda p {
-        width: 45%;
-        color: #d11c1c;
+      
         text-align: justify;
-        background: #b8d60c;
-        margin-top: 20px;
+        margin: 10px;
         font-size: 10px;
-        padding: 10px;
+        
     }
 
     
-    .containerwakanda h1, .containerwakanda h2{
-        justify-content: left;
-        align-items: start;
-        text-align: left;
-    }
-    .containerwakanda .lienwakanda{
-       background: #303ce2;
-    }
