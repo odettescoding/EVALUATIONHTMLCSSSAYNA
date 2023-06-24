@@ -213,6 +213,15 @@ body
         margin-right: 20px;
         
     }
+    .blackpanthera{
+  
+        align-items:center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background: #1b1c3f;
+    }
+
     /* mise ne forme de l'image  pantherhome2*/
 .Pantherhome2
     {
@@ -244,6 +253,7 @@ body
         font-family: 'Beyno';
         font-size: 16px;
         text-align: left;
+        color: #9E91B7;
     }
 .parag-killmonger
     {
@@ -400,6 +410,25 @@ body
          top: 118%;
          right: 13%;
 }
+.button
+    {
+        display: flex;
+        align-items: center; 
+        text-align: center;
+        justify-content: center;
+        
+    }
+.button button
+    {
+        font-size: 8px;
+        background: #3d2da6;
+        padding: 6px;
+        margin-left: 12px;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        
+    }
 #response
 {
     margin-top: -140%;
@@ -411,6 +440,11 @@ body
     font-size: 8px;
     font-family: 'Cantarell';
 }
+#response p span
+    {
+        font-weight: bold;
+    }
+
 
 .titrepantherhome5{
     margin-top: 150px;
@@ -423,6 +457,70 @@ body
         width: 100%;
         margin-top: 20%;
     }
+
+    #section3
+    {
+        text-align: center;
+        background-image: url(Assets/Illustration/Pantherhome7.png);
+        padding-top: 10%;
+        width: 100%;
+        background-size: 100%;
+        margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: #371a7c;
+        
+    }
+
+    
+#formulaire
+{
+
+    background:  linear-gradient(#faf3f3,transparent);
+    width: 50%;
+    background-size: 100%;
+    height: 32%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 22%;
+    color: #000;
+    padding: 20px 25px;
+    
+}
+.input
+{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 1px solid rgb(10, 10, 10);
+    background: transparent;
+}
+#formulaire .envoyer
+{
+    background: #f2cef2;
+    width: 100px;
+    color: #000;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+
+}
+
+#formulaire .envoyer:hover
+{
+Background :radial-gradient(126.67% 350.28% at -21.35% 20%,
+#e0a3e6 20%, #f5e3e3 39.1%, rgba(210, 48, 231, 0.838) 94.57%,
+rgba(241, 140, 202, 0) 100%);
+width: 100px;
+color: #000;
+border-radius: 10px;
+padding: 6px;
+border: none;
+
+}
 
 /* mise ne forme de la partie wakanda*/
 .wakanda
@@ -611,7 +709,12 @@ body
         background: #040286;
         padding: 80px 40px;
         margin: 60px auto;
+        color: #ffffff;
     }
+.lienyoutube a {
+    text-decoration: none;
+    color: #ffffff;
+}
     .containerwakanda p 
     {
           
@@ -635,34 +738,59 @@ body
         100%{transform: translateX(0%);}
     }
 
-.paragenigme p{
-    font-size: 12px;
-    font-family: 'Cantarell';
-    padding: auto;
-}
 
-
-
-
-
-
-.blackpanthera{
-  
-    align-items:center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background: #1b1c3f;
-}
-
-.parag-wakanda
+.paragenigme 
     {
-        
-        font-size: 10px;
-        text-align: justify;
-       
+        width: 500px;
+        background-image: url(Assets/Enigme/Pantherenigme2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 13px;
+        background-position: left ;  
     }
-
+.paragenigme p 
+    {
+    font-family: 'Cantarell';
+    font-size: 12px;
+    width: 410px;
+    padding: 50px;
+}
+.citationenigme p   
+    {
+        color: #9E91B7;
+        font-size: 22px;
+        font-family: 'Wakanda-forever';
+    }
+.sujet .p2
+    {   
+         font-size: 14px;
+         width: 500px;
+          font-family: 'Wakanda-forever';
+    }
+.sujet .titreindice
+    {
+        color: #ffffff;
+        font-family: 'Cantarell';
+        font-size: 14px;
+    }
+.paragcoteenigme
+    {
+        width: 300px;
+        background-image: url(Assets/Enigme/Pantherenigme2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 60px;
+        margin-left: -50px;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+.paragcoteenigme p
+    {
+        font-family: 'Cantarell';
+        font-size: 12px;
+    }
 span    
     {
         text-decoration: underline;
@@ -670,106 +798,6 @@ span
         font-family: 'Cantarell';
        
     }
-
-h2
-    {
-        
-        font-size: 12px;
-        font-family: 'Beyno';
-        color:#9E91B7;
-         text-align: left;
-
-    }
-
-
-
-
-
-
-/* formulaire sous le pantherhome7*/
-
-
-
-.button
-    {
-        display: flex;
-        justify-content: space-between;   
-    }
-.button button
-    {
-        font-size: 8px;
-        background: #3d2da6;
-        padding: 6px;
-        border: none;
-        border-radius: 5px;
-        color: #ffffff;
-        
-    }
-#response p span
-    {
-        font-weight: bold;
-    }
-
-#section3
-    {
-        text-align: center;
-        background-image: url(Assets/Illustration/Pantherhome7.png);
-        padding-top: 10%;
-        width: 100%;
-        background-size: 100%;
-        margin-bottom: 5%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        
-    }
-#formulaire
-    {
-    
-        background:  linear-gradient(#faf3f3,transparent);
-        width: 50%;
-        background-size: 100%;
-        height: 32%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        border-radius: 22%;
-        color: #000;
-        padding: 20px 25px;
-        
-    }
-.input
-    {
-        width: 200px;
-        padding: 5px;
-        border-radius: 10px;
-        margin: 10px auto;
-        border: 1px solid rgb(10, 10, 10);
-        background: transparent;
-    }
- #formulaire .envoyer
-    {
-        background: #f2cef2;
-        width: 100px;
-        color: #000;
-        border-radius: 10px;
-        padding: 6px;
-        border: none;
-    
-    }
-
-#formulaire .envoyer:hover
-{
-    Background :radial-gradient(126.67% 350.28% at -21.35% 20%,
-#e0a3e6 20%, #f5e3e3 39.1%, rgba(210, 48, 231, 0.838) 94.57%,
-rgba(241, 140, 202, 0) 100%);
-    width: 100px;
-    color: #000;
-    border-radius: 10px;
-    padding: 6px;
-    border: none;
- 
-}
 
 /* MISE EN FORM DE LA PARTIE ENIGME*/
 .containerenigme
@@ -786,13 +814,7 @@ rgba(241, 140, 202, 0) 100%);
         padding-top: 0px;
     }
     
-.paragenigme
-    {
-       
-        text-justify: auto;
-        font-size: 8px;
-        margin: 20px 30px;
-    }
+
 .textagauchepanthenigme1
     {
         display:flex;
@@ -801,15 +823,7 @@ rgba(241, 140, 202, 0) 100%);
         align-items: center;
         text-align: justify;
     }
-.paragenigme
-    {
-        width: 300px;
-        background-image: url(Assets/Enigme/Pantherenigme2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 60px;
-        background-position: left ;  
-    }
+
 .textagauchepanthenigme1 h1
     {
        text-transform: uppercase;
@@ -869,24 +883,14 @@ rgba(241, 140, 202, 0) 100%);
 
 .sujet
     {
-        width:50%;
+        width:120%;
         text-align: justify;
         justify-content: space-around;
         font-size: 10px;
-    }
-.paragaucheenigme
-    {
-        width: 300px;
-        background-image: url(Assets/Enigme/Pantherenigme2.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding: 60px;
-        margin-left: -50px;
-        font-size: 8px;
-        text-align: center;
-        margin-top: 40px;
         
     }
+
+
     
 .partiform .envoyer
     {
@@ -909,24 +913,7 @@ rgba(241, 140, 202, 0) 100%);
         margin: 50px 45px;
         border: none;
     }
-        
-    
-        /* Mise en form de la partie wakanda */
-
-
-
-     /*mise en form de la partie wakanda*/
-
-
-
-
-
-
-    
-
-
-
-
+     
 
 /* MISEEN FORM FOOTER*/
 
@@ -986,6 +973,7 @@ h4{
 }
 .footer p, .footer li{
     font-size: 10px;
+    font-family: 'Cantarell';
 }
 .condition{
     display: flex;
@@ -995,6 +983,7 @@ h4{
     margin-left: -150px;
     flex-direction: row;
     padding-top: 50%;
+
 }
 .condition ul,.condition li{
     display: flex;
